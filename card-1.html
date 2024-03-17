@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Агенц имоти</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-1/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-1/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-1/favicon-16x16.png">
+  <link rel="manifest" href="favicon-1/site.webmanifest">
+  <link rel="mask-icon" href="favicon-1/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<bodу>
+  <header class="header-card__background">
+    <div class="container__card">
+      <div class="header__top-card">
+
+        <div class="logo-card">
+          <a href="index.html" class="logo__link-card">
+            <img src="images/logo_1.svg" alt="logo-card" class="logo__img-card">
+          </a>
+          <p class="header__adress-card">Варна, бул. “Васил Левски” 10; офис 1-2 </p>
+        </div>
+
+        <div class="header__links-card">
+          <div class="header-btn__card">
+            <a href="tel:+1234567789" class="phone__bg">
+              <img class="image__btn-card" src="images/phone-svg.svg" alt="">
+            </a>
+          </div>
+          <div class="header-btn__card">
+            <a href="  https://www.google.com/maps/search/?api=1&query=Бул_Васил_Левски_10+Varna+Bolgaria_place_id="
+              data-fancybox>
+              <img class="image__btn-card" src="images/map-svg.svg" alt="">
+            </a>
+          </div>
+          <div class="header-btn__card">
+            <a href="https://youtu.be/RrF6PGH9mB0?si=a6hfnJN2XTefSiE0" data-fancybox data-width="100%"
+              data-height="100%">
+              <img class="image__btn-card" src="images/video.svg" alt="">
+            </a>
+          </div>
+          <div class="header-btn__card">
+            <a data-fancybox href="#hidde" id="btn"><img class="image__btn-card" src="images/qr-code.svg" alt=""></a>
+            <div class="form__text qr__code" id="hidde">
+              <p class="">Отсканируйте для получения електронной визитки</p>
+              <img class="image__qr-card" src="images/qr-go.png" alt="">
+              <img class="image-hend__scan" src="images/scan-image.png" alt="">
+            </div>
+          </div>
+          <div class="header-btn__card">
+            <select class="change-lang">
+              <option class="change" value="bg" selected>BG</option>
+              <option class="change" value="en">EN</option>
+              <option class="change" value="ru">RU</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__contents-card">
+        <div class="header__content-card">
+          <h1 class="lng-header-title header__title-card">Агенция за недвижими имоти гр. Варна</h1>
+          <ul class="header__list">
+            <li class="lng__text-1 header__text-card">покупко-продажби</li>
+            <li class="lng__text-2 header__text-card">наемане / отдаване</li>
+            <li class="lng__text-3 header__text-card">управление на имоти</li>
+          </ul>
+          <div class="header__descr"></div>
+          <a data-fancybox href="#hidden" id="btn" class="button__cons-card">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
+        </div>
+        <img src="images/image-left.png" alt="img" class="header__image-card">
+        <div class="piple-card">
+          <div class="piople__name-card">Име, Фамилия <br>+356 897 345 367</div>
+          <img src="images/piople-photo.jpg" alt="" class="header__piople-card">
+        </div>
+      </div>
+      <div class="header__bottom-logo">
+        <img src="images/logo.svg" alt="" class="bottom-logo">
+      </div>
+    </div>
+  </header>
+  <!-- --------form--------- -->
+  <div class="form__text" id="hidden">
+    <div class="wrapper">
+      <div class="container">
+        <div class="forms">
+          <form action="#" id="form" class="form__body">
+            <h2 class="lng-form-title  form__title">Заролняте форм</h1>
+              <p class="form__descr">получите актуальное предложение</p>
+              <!-- <div class="title">Для клиентов</div> -->
+              <div class="client__data">
+                <div class="form__data-left">
+                  <div class="form__check">
+                    <div class="radio__check">
+                      <input id="houseRentA" checked type="radio" value="rent-a" name="rent" class="radio__inp">
+                      <label class="radio__lab" for="houseRentA">Снять</label>
+                    </div>
+                    <div class="radio__check">
+                      <input id="houseRentOut" type="radio" value="rent-out" name="rent" class="radio__inp">
+                      <label class="radio__lab" for="houseRentOut">Сдать</label>
+                    </div>
+                  </div>
+                  <div class="form__data">
+                    <div class="form__item">
+                      <select name="price-min" class="select">
+                        <option value="" selected>Стоимость</option>
+                        <option value="до 500 лев">до 500 лев</option>
+                        <option value="от 500 до 700 лев">от 500 до 700 лев</option>
+                        <option value="от 700 до 900 лев">от 700 до 900 лев</option>
+                        <option value="свыше 900 лев">свыше 900 лев</option>
+                      </select>
+                    </div>
+
+                    <div class="form__item">
+                      <select name="type" class="select">
+                        <option value="" selected>Тип недвижимости</option>
+                        <option value="Апартамент">Апартамент</option>
+                        <option value="1 комнатная">1 комнатная</option>
+                        <option value="2 комнатная">2 комнатная</option>
+                        <option value="3 комнатная">3 комнатная</option>
+                        <option value="свыше 3-х комнат">свыше 3-х комнат</option>
+                        <option value="Дом">Дом</option>
+                        <option value="Комерческая">Комерческая</option>
+                        <option value="Гараж">Гараж</option>
+                      </select>
+                    </div>
+
+                    <div class="form__item">
+                      <select name="location" class="select">
+                        <option value="" selected>Квартал</option>
+                        <option value="Автогара">Автогара</option>
+                        <option value="Аспарухово">Аспарухово</option>
+                        <option value="Бизнес парк">Бизнес парк</option>
+                        <option value="Бриз">Бриз</option>
+                        <option value="Виница">Виница</option>
+                        <option value="Галата">Галата</option>
+                        <option value="Обзор">Обзор</option>
+                        <option value="Изгрев">Изгрев</option>
+                        <option value="Чайка">Чайка</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="client__name">
+                  <div class="form__item">
+                    <input id="formName" tape="text" name="name" class="form__input _req" placeholder="Your name*">
+                  </div>
+                  <div class="form__item">
+                    <input id="formEmail" tape="text" name="email" class="form__input _req _email"
+                      placeholder="E-mail*">
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="partners">
+              <div class="title">Для партнеров</div>
+              <div class="form__partners">
+                <div class="form__partner">
+                  <input id="formName" tape="text" name="name-partn" class="form__input _req"
+                    placeholder="Partners name*">
+                </div>
+                <div class="form__scrin">
+                  <div class="form__label">Прикрепите скрин с телефона</div>
+                  <div class="file">
+                    <div class="file__item">
+                      <input id="formImage" accept=".jpg" type="file" name="image" class="file__input">
+                      <div class="file__button">Выбрать</div>
+                    </div>
+                    <div id="formPreview" class="file__preview"></div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+
+              <div class="form__private">
+                <div class="form__item">
+                  <div class="checkbox">
+                    <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                    <label for="formAgreement" class="checkbox__label">
+                      <p class="checkbox-policy">Согласие на обработку персональных данных в соотв. c <a
+                          href="#">Условиями</a></p>
+                    </label>
+                  </div>
+                </div>
+                <div class="header-btn__card">
+                  <button type="submit" class="form__button">Отправить</button>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------form end--------------- -->
+  <footer class="footer">
+    <div id="overlay" class="overlay js-overlay-thank-you">
+      <div class="popup js-thank-you">
+        <img class="check-one" src="images/check-one.svg" alt="">
+        <h2 class="popup__title">Спасибо за заявку!</h2>
+        <p class="popup__senks">Мы отправим актуальные предложения на Ваш E-mail в течении <span>5 минут</span></p>
+        <p class="social__text">Cоцсети и сайт<br><span>Подписывайтесь:</span></p>
+        <ul class="link-social__items">
+          <a href="" class="link-social">
+            <img src="images/facebook-icon.svg" alt="" class="img-social">
+          </a>
+          <a href="" class="link-social">
+            <img src="images/viber-icon.svg" alt="" class="img-social">
+          </a>
+          <a href="" class="link-social">
+            <img src="images/whatsapp-icon.svg" alt="" class="img-social">
+          </a>
+        </ul>
+        <a href="" class="link-social">
+          <p class="link-site">www.social-link.com</p>
+        </a>
+        <a href="" class="close-popup">Ok</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/scriptlang.js"></script>
+  <script src="js/mainlang.js"></script>
+  <script src="js/scriptmail.js"></script>
+  <script src="js/main.js"></script>
+
+
+  </body>
+
+</html>
